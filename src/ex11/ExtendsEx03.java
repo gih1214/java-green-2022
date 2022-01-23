@@ -12,7 +12,6 @@ class 애완동물 {
 
     // 무효화됨.
     void changeName() {
-
     }
 }
 
@@ -54,7 +53,7 @@ public class ExtendsEx03 {
     }
 
     public static void main(String[] args) {
-        고양이 cat = new 고양이(); // 고양이(printName), 애완동물(printName)
+        애완동물 cat = new 고양이(); // 고양이(printName), 애완동물(printName)
         start(cat);
 
         애완동물 dog = new 강아지(); // 강아지(XXXXX), 애완동물(printName)
