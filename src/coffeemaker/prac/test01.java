@@ -1,4 +1,4 @@
-package coffeshop.prac;
+package coffeemaker.prac;
 
 import java.util.List;
 

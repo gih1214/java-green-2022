@@ -1,4 +1,4 @@
-package coffeshop.prac;
+package coffeemaker.prac;
 
 // // 고객
 // interface ICustomer {
