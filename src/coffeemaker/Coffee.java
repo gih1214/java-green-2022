@@ -1,7 +1,9 @@
 package coffeemaker;
 
-public class Coffee {
+import lombok.Data;
 
+@Data
+public class Coffee {
     private String name;
     private int price;
 
@@ -9,13 +11,4 @@ public class Coffee {
         this.name = menuItem.getName();
         this.price = menuItem.getPrice();
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
 }

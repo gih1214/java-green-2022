@@ -10,14 +10,13 @@ public class Menu {
         this.items = items;
     }
 
-    // 2번
-
-    public MenuItem choose(String menuName) { // 원하는 커피를 골라서 리턴해주기
-        for (MenuItem each : items) { // for(자료형 변수명 : 배열명){} : 원소 출력
-            // if (each.getName().equals()) {
-            // return each;
-            // }
+    public MenuItem choose(String menuName) {
+        for (MenuItem item : items) {
+            if (item.getName().equals(menuName)) {
+                return item;
+            }
         }
         return null;
     }
+
 }
